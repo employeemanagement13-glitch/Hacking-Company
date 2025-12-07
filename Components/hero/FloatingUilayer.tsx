@@ -67,7 +67,7 @@ export default function FloatingUILayer() {
       </h1>
 
       {/* Left */}
-      <div className="absolute top-10 left-30 flex flex-col items-center bg-[#1F1F1F] px-5 py-1 rounded-xl">
+      <div className="absolute top-10 left-24 flex flex-col items-center bg-[#1F1F1F] px-5 py-1 rounded-xl">
         <div className="mb-2 p-3 rounded-full bg-white top-1 right-10 shadow-xl flex items-center justify-center w-12 h-12 relative">
           <Lock size={28} className="text-orange-500" />
         </div>
@@ -89,7 +89,7 @@ export default function FloatingUILayer() {
       </div>
 
       {/* Right */}
-      <div className="absolute top-16 right-28 flex items-start space-x-4 bg-[#1F1F1F] px-4 py-2 rounded-xl">
+      <div className="absolute top-16 right-16 flex items-start space-x-4 bg-[#1F1F1F] px-4 py-2 rounded-xl">
         <StatsCircle value="+90%" label="Secure" color={ACCENT_RED} />
 
         <div className="h-28 flex items-end space-x-1 pt-4">
@@ -101,7 +101,7 @@ export default function FloatingUILayer() {
         </div>
       </div>
 
-      <div className="absolute top-60 right-60">
+      <div className="absolute top-60 right-40">
         <StatsCircle value="+50%" label="Keeps your apps safe" color={ACCENT_RED} />
       </div>
     </>
