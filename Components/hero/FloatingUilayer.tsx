@@ -84,7 +84,7 @@ export default function FloatingUILayer() {
         </div>
       </div>
 
-      <div className="absolute top-60 left-30">
+      <div className="absolute top-60 left-24">
         <AttackCard percentage="+44%" label="Attacks" isUp={true} />
       </div>
 
